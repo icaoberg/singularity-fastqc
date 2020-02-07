@@ -1,5 +1,5 @@
 # singularity-fastqc
-v[![Hosted](https://img.shields.io/badge/hosted-sylabs.io-green.svg)](https://cloud.sylabs.io/library/icaoberg/default/fastqc)
+[![Hosted](https://img.shields.io/badge/hosted-sylabs.io-green.svg)](https://cloud.sylabs.io/library/icaoberg/default/fastqc)
 ![Release](https://img.shields.io/badge/release-v0.11.9-green.svg)
 [![Build Status](https://travis-ci.org/icaoberg/singularity-fastqc.svg?branch=master)](https://travis-ci.org/icaoberg/singularity-fastqc)
 [![GitHub issues](https://img.shields.io/github/issues/icaoberg/singularity-fastqc.svg)](https://github.com/icaoberg/singularity-fastqc/issues)
@@ -177,7 +177,7 @@ BUGS
 ## Examples
 ### Example 1
 
-![Screenshot](../../images/example01.png)
+![Screenshot](/images/example01.png)
 
 ```
 singularity pull library://icaoberg/default/fastqc:v0.11.9
