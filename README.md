@@ -1,5 +1,5 @@
 # singularity-fastqc
-v[![Hosted](https://img.shields.io/badge/hosted-sylabs.io-green.svg)](https://cloud.sylabs.io/library/icaoberg/default/fastqc)
+[![Hosted](https://img.shields.io/badge/hosted-sylabs.io-green.svg)](https://cloud.sylabs.io/library/icaoberg/default/fastqc)
 ![Release](https://img.shields.io/badge/release-v0.11.9-green.svg)
 [![Build Status](https://travis-ci.org/icaoberg/singularity-fastqc.svg?branch=master)](https://travis-ci.org/icaoberg/singularity-fastqc)
 [![GitHub issues](https://img.shields.io/github/issues/icaoberg/singularity-fastqc.svg)](https://github.com/icaoberg/singularity-fastqc/issues)
@@ -177,16 +177,17 @@ BUGS
 ## Examples
 ### example01
 
+![Screenshot](/images/example01.png)
+
 ```
 singularity pull library://icaoberg/default/fastqc:v0.11.9
 wget -nc https://sra-download.ncbi.nlm.nih.gov/traces/sra46/SRZ/011022/SRR11022287/S543T_R1.fastq.gz
 singularity run --app fastqc fastqc_v0.11.9.sif S543T_R1.fastq.gz
 ```
 
-
 ## Disclaimer
 
-I am nothing but a humble programmer creating the container for this wonderful app. 
+I am nothing but a humble programmer creating the container for this wonderful app. FastQC was developed by the Bioinformatics Group at the [Babraham Institute](https://www.babraham.ac.uk/). 
 
 ---
 [![CBD](http://www.cbd.cmu.edu/wp-content/uploads/2017/07/wordpress-default.png)](http://www.cbd.cmu.edu)
