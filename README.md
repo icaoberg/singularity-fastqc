@@ -1,9 +1,9 @@
-# singularity-bedtools
-[![Hosted](https://img.shields.io/badge/hosted-sylabs.io-green.svg)](https://cloud.sylabs.io/library/icaoberg/default/bedtools)
-[![Build Status](https://travis-ci.org/icaoberg/singularity-bedtools.svg?branch=master)](https://travis-ci.org/icaoberg/singularity-bedtools)
-[![GitHub issues](https://img.shields.io/github/issues/icaoberg/singularity-bedtools.svg)](https://github.com/icaoberg/singularity-bedtools/issues)
-[![GitHub forks](https://img.shields.io/github/forks/icaoberg/singularity-bedtools.svg)](https://github.com/icaoberg/singularity-bedtools/network)
-[![GitHub stars](https://img.shields.io/github/stars/icaoberg/singularity-bedtools.svg)](https://github.com/icaoberg/singularity-bedtools/stargazers)
+# singularity-fastqc
+[![Hosted](https://img.shields.io/badge/hosted-sylabs.io-green.svg)](https://cloud.sylabs.io/library/icaoberg/default/fastqc)
+[![Build Status](https://travis-ci.org/icaoberg/singularity-fastqc.svg?branch=master)](https://travis-ci.org/icaoberg/singularity-fastqc)
+[![GitHub issues](https://img.shields.io/github/issues/icaoberg/singularity-fastqc.svg)](https://github.com/icaoberg/singularity-fastqc/issues)
+[![GitHub forks](https://img.shields.io/github/forks/icaoberg/singularity-fastqc.svg)](https://github.com/icaoberg/singularity-fastqc/network)
+[![GitHub stars](https://img.shields.io/github/stars/icaoberg/singularity-fastqc.svg)](https://github.com/icaoberg/singularity-fastqc/stargazers)
 [![GitHub license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/quick-guide-gplv3.en.html)
 
 ## FastQC
@@ -45,7 +45,7 @@ You will need to edit the script above to match your account on [SyLabs.io](http
 If you have the client installed and cannot build the image locally nor remotely, simply run
 
 ```
-singularity pull library://icaoberg/default/bedtools
+singularity pull library://icaoberg/default/fastqc
 ```
 
 ## Disclaimer
