@@ -177,16 +177,17 @@ BUGS
 ## Examples
 ### Example 1
 
+![Screenshot](../../images/example01.png)
+
 ```
 singularity pull library://icaoberg/default/fastqc:v0.11.9
 wget -nc https://sra-download.ncbi.nlm.nih.gov/traces/sra46/SRZ/011022/SRR11022287/S543T_R1.fastq.gz
 singularity run --app fastqc fastqc_v0.11.9.sif S543T_R1.fastq.gz
 ```
 
-
 ## Disclaimer
 
-I am nothing but a humble programmer creating the container for this wonderful app. 
+I am nothing but a humble programmer creating the container for this wonderful app. FastQC was developed by the Bioinformatics Group at the [Babraham Institute](https://www.babraham.ac.uk/). 
 
 ---
 [![CBD](http://www.cbd.cmu.edu/wp-content/uploads/2017/07/wordpress-default.png)](http://www.cbd.cmu.edu)
