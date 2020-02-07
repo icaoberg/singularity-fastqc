@@ -5,8 +5,16 @@ IncludeCmd: yes
 
 %labels
     AUTHOR icaoberg
-    EMAIL icaoberg@alumni.cmu.edu
-    WEBSITE http://linus.cbd.cs.cmu.edu
+    EMAIL icaoberg@andrew.cmu.edu
+    WEBSITE http://www.andrew.cmu.edu/~icaoberg
+    VERSION 0.11.9
+
+%environment
+    LANGUAGE = "C",
+    LC_ALL = "en_GB.UTF-8",
+    LANG = "en_US.UTF-8"
+
+    export LANGUAGE LC_ALL LANG
 
 %post
     apt-get update && apt-get install -y --no-install-recommends apt-utils
@@ -14,7 +22,7 @@ IncludeCmd: yes
 
 ####################################################################################
 %appinstall fastqc
-    apt-get install -y wget unzip default-jre
+    apt-get install -y wget unzip default-jre perl
     wget https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.9.zip
     unzip fastqc_v0.11.9.zip
     mv FastQC /opt/

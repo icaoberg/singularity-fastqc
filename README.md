@@ -53,16 +53,7 @@ singularity pull library://icaoberg/default/fastqc
 ```
 singularity run --app fastqc singularity-fastqc.simg --help
 
-perl: warning: Setting locale failed.
-perl: warning: Please check that your locale settings:
-	LANGUAGE = (unset),
-	LC_ALL = (unset),
-	LC_TERMINAL = "iTerm2",
-	LANG = "en_US.UTF-8"
-    are supported and installed on your system.
-perl: warning: Falling back to the standard locale ("C").
-
-            FastQC - A high throughput sequence QC analysis tool
+FastQC - A high throughput sequence QC analysis tool
 
 SYNOPSIS
 
