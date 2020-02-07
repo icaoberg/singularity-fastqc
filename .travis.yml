@@ -55,3 +55,5 @@ script:
   - bash ./build.sh
   - du -h singularity-fastqc.simg
   - singularity run --app fastqc singularity-fastqc.simg --help
+  - wget https://sra-download.ncbi.nlm.nih.gov/traces/sra46/SRZ/011022/SRR11022287/S543T_R1.fastq.gz
+  - singularity run --app fastqc singularity-debian-buster-fastqc-v0.11.9.simg S543T_R1.fastq.gz
