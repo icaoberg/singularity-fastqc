@@ -46,7 +46,7 @@ You will need to edit the script above to match your account on [SyLabs.io](http
 If you have the client installed and cannot build the image locally nor remotely, simply run
 
 ```
-singularity pull library://icaoberg/default/fastqc:0.11.9
+singularity pull --arch amd64 library://icaoberg/default/fastqc:v0.11.9
 ```
 
 ### Help
